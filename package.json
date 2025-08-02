@@ -2,8 +2,10 @@
   "name": "post-pulse",
   "private": true,
   "scripts": {
-    "build": "remix vite:build",
+    "build": "npm run shopify app build || remix vite:build",
     "dev": "shopify app dev",
+    "postinstall": "prisma generate",
+    "vercel-build": "prisma generate && prisma migrate deploy && npm run build",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
