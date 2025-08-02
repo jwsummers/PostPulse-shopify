@@ -1,11 +1,18 @@
+# shopify.extension.toml
 name = "postpulse-post-purchase"
 type = "checkout_post_purchase"
+api_version = "2025-07"
 
+[build]
+command = "npm run build"
+path = "dist"
 
-# [[metafields]]
-# namespace = "my-namespace"
-# key = "my-key"
+[[targets]]
+target = "Checkout::PostPurchase::Render"
+module = "./src/index.ts"
 
-# [[metafields]]
-# namespace = "my-namespace"
-# key = "my-key-2"
+[capabilities]
+network_access = true
+
+[variables]
+POSTPULSE_API_URL = "https://postpulse-green.vercel.app"
