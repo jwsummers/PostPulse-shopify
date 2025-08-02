@@ -3,7 +3,7 @@
 client_id = "9672ffad7b8037a63f09f907c8398b54"
 name = "PostPulse"
 handle = "postpulse"
-application_url = "https://ntsc-bills-carrying-gem.trycloudflare.com"
+application_url = "https://citizenship-graphs-exterior-awesome.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://ntsc-bills-carrying-gem.trycloudflare.com/auth/callback", "https://ntsc-bills-carrying-gem.trycloudflare.com/auth/shopify/callback", "https://ntsc-bills-carrying-gem.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://citizenship-graphs-exterior-awesome.trycloudflare.com/auth/callback", "https://citizenship-graphs-exterior-awesome.trycloudflare.com/auth/shopify/callback", "https://citizenship-graphs-exterior-awesome.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
