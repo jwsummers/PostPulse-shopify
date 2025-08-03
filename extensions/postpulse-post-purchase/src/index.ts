@@ -7,6 +7,10 @@ import {
   Button,
 } from '@shopify/post-purchase-ui-extensions'
 
+extend('Checkout::PostPurchase::ShouldRender', () => {
+  return { render: true }
+})
+
 // Post-purchase render entry
 extend('Checkout::PostPurchase::Render', (root, api) => {
   let selected: string | null = null
