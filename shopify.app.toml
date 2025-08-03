@@ -3,7 +3,7 @@
 client_id = "9672ffad7b8037a63f09f907c8398b54"
 name = "PostPulse"
 handle = "postpulse"
-application_url = "https://warm-assessments-intimate-propecia.trycloudflare.com"
+application_url = "https://virtue-visiting-health-mhz.trycloudflare.com"
 embedded = true
 
 [build]
@@ -26,7 +26,7 @@ api_version = "2025-07"
 scopes = "write_products"
 
 [auth]
-redirect_urls = ["https://warm-assessments-intimate-propecia.trycloudflare.com/auth/callback", "https://warm-assessments-intimate-propecia.trycloudflare.com/auth/shopify/callback", "https://warm-assessments-intimate-propecia.trycloudflare.com/api/auth/callback"]
+redirect_urls = ["https://virtue-visiting-health-mhz.trycloudflare.com/auth/callback", "https://virtue-visiting-health-mhz.trycloudflare.com/auth/shopify/callback", "https://virtue-visiting-health-mhz.trycloudflare.com/api/auth/callback"]
 
 [pos]
 embedded = false
